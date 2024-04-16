@@ -12,9 +12,9 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    username: postgres
+    username: keycloak
     url: jdbc:postgresql://localhost:5432/keycloak
-    password: postgres
+    password: password
   security:
     oauth2:
       resource-server:
